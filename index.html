@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube clone</title>
+
+    <link rel="shortcut icon" href="images/youtube title.png" type="image/x-icon">
+
+    <!-- start font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- end font family -->
+
+    <!-- start font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- end font awesome -->
+
+    <!-- start bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- end bootstrap -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="page">
+        <!-- start nav -->
+        <nav class="navbar position-fixed top-0 w-100 bg-white">
+            <div class="container-fluid">
+                <div class="d-flex w-100 flex-nowrap justify-content-between mb-3">
+                    <div class="logo d-flex align-items-center me-4 flex-shrink-0">
+                        <span id="nav-bar" class="bar fs-5 d-flex justify-content-center align-items-center rounded-circle">
+                            <i class="fa-solid fa-bars"></i>
+                        </span>
+                        <a href="index.html" class="m-0 ms-2 position-relative text-black">
+                            <img src="images/youtube.png"  alt="" style="width: 120px;">
+                            
+                        </a>
+                    </div>
+                    <div class="search-box d-flex align-items-center w-50 m-auto">
+                        <div class="search border-0 rounded-pill d-flex flex-grow-1">
+                            <input type="text" class="form-control form-control rounded-start-pill border border-1 "
+                                placeholder="Search">
+                            <button class="btn p-2 rounded-0 rounded-end-pill px-4 border border-1 border-start-0">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <span
+                            class="speaker ms-3 d-flex justify-content-center align-items-center rounded-circle flex-shrink-0">
+                            <i class="fa-solid fa-microphone"></i>
+                        </span>
+                    </div>
+                    <div class="info d-flex fs-5 align-items-center ms-4 flex-shrink-0">
+                        <span class="d-flex justify-content-center align-items-center rounded-circle">
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                        <span
+                            class="me-3 ms-2 position-relative d-flex justify-content-center align-items-center rounded-circle">
+                            <i class="fa-regular fa-bell"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                99+
+                            </span>
+                        </span>
+                        <div class="profile rounded-circle overflow-hidden">
+                            <img src="images/me.jpg" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <ul class="links list-unstyled text-capitalize py-1 mb-0">
+                    <li class="active btn rounded-3 mx-1 fw-bold">all</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">gaming</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">java</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">javaScript</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">HTML</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">CSS</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">movies</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">The witcher 3</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">friends</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">object-oriented programming</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">free palestine</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">react</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">angular</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">vue js</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">music</li>
+                    <li class="btn rounded-3 mx-1 fw-bold">live-now</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end nav -->
+
+        <!-- start main -->
+        <main>
+            <div class="container-fluid overflow-hidden position-relative">
+                
+                <div class="row mt-0 gy-4 py-3">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card1.webp" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo1.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">learn javaScript in arabic 2021-#162 - formatting date and time</p>
+                                    <span >elzero web school</span>
+                                    <span>29K views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        2 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card2.webp" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo2.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">6 Advanced Flexbox Features You Probably Don’t Know</p>
+                                    <span >web dev</span>
+                                    <span>108K views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        1 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card3.webp" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo3.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">The different types of JavaScript functions explained</p>
+                                    <span >Kevin powell</span>
+                                    <span>29K views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        7 days ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card5.webp" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo5.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">Red Dead Redemption 2 (RDR2) | 8K | RTX 4090 24GB | Ultra Settings</p>
+                                    <span>guyWith4090</span>
+                                    <span>330K views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        6 months ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card4.webp" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo4.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">Ed Sheeran - Shape of You (Official Music Video)</p>
+                                    <span >Ed Sheeran</span>
+                                    <span>6.2B views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        7 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card6.jpg" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo6.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">SEKIRO SHADOWS DIE TWICE Walkthrough Gameplay Part 1 - INTRO (Sekiro)</p>
+                                    <span>theRadBrad</span>
+                                    <span>6M views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        5 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card7.jpg" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo2.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">Learn JSON in 10 Minutes</p>
+                                    <span >Web dev</span>
+                                    <span>3.1M views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        5 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card8.jpg" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo8.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">THE BATMAN – Main Trailer</p>
+                                    <span >Warner Bros.</span>
+                                    <span>61M views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        2 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card border-0">
+                            <img src="images/card9.webp" class="rounded-3" alt="...">
+                            <div class="card-body d-flex px-0">
+                                <div class="card-logo flex-shrink-0 " style="width: 40px; height: 40px;">
+                                    <img src="images/logo9.jpg" class="w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="card-content px-3 text-capitalize d-flex flex-column">
+                                    <p class="mb-2">CSS Tutorial – Full Course for Beginners</p>
+                                    <span >freeCodeCamp.org</span>
+                                    <span>1.7M views
+                                        <span class="mx-1 d-inline-block rounded-circle"></span>
+                                        1 years ago
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- end main -->
+
+        <!-- start aside -->
+        <aside id="sidebar" class=" position-fixed start-0">
+            <div class="container-fluid">
+                <ul class="side-bar mb-0 list-unstyled py-3 text-capitalize border border-1 border-start-0 border-end-0 border-top-0">
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/home.png" class="w-100" alt="">
+                                <span class="text text-center d-none">home</span>
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">home</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/shorts.png" class="w-100" alt="">
+                                <span class="text text-center d-none">shorts</span>
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">shorts</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/library.png" class="w-100" alt="">
+                                <span class="text text-center d-none">library</span>
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">library</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="you mt-3">
+                    <div class="text-capitalize rounded py-2 ps-4 d-flex align-items-center">you
+                        <i class="fa-solid fa-chevron-right ms-2" style="font-size: 12px; color: #3e3e3e;"></i>
+                    </div>
+                    <span class=" d-block rounded py-2 text-center d-none">
+                        <img src="images/library.png" alt="">
+                        <span class="text text-capitalize d-block">you</span>
+                    </span>
+                </div>
+                <ul class="you-list list-unstyled text-capitalize d-block">
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/your channel.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">your channel</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/history.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">history</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/playlist.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">playlists</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/youe videos.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">your videos</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/your courses.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">your courses</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/watch later.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">watch later</p>
+                        </div>
+                    </li>
+                    <li class="d-flex rounded py-2 overflow-hidden">
+                        <div class="row m-0 flex-shrink-0 flex-nowrap align-items-center">
+                            <span class="p-0 mx-3">
+                                <img src="images/liked videos.png" class="w-100" alt="">
+                            </span>
+                            <p class="m-0 px-0 ps-2 col">liked videos</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="overlay position-fixed bottom-0 start-0 w-100 " style="background-color: #3e3e3ea3; z-index: 8888; "></div>
+        <!-- end aside -->
+    </div>
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
